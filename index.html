@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>InsightX Analytics</title>
+<link rel="stylesheet" href="styles.css"/>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<nav>
+<div class="brand">
+<img src="logo.svg" height="28"/> InsightX
+</div>
+<div>
+<a href="#">Product</a>
+<a href="#">Analytics</a>
+<a href="#">Pricing</a>
+<a href="#">Contact</a>
+</div>
+</nav>
+
+<div class="container">
+
+<section class="hero">
+<div>
+<h1>Analytics that drive smarter decisions</h1>
+<p>A startup-ready analytics platform to monitor KPIs, visualize trends, and grow with confidence.</p>
+<button>View Dashboard</button>
+</div>
+<canvas id="heroChart"></canvas>
+</section>
+
+<section class="cards">
+<div class="card"><h3>Total Users</h3><h2>12,450</h2></div>
+<div class="card"><h3>Monthly Revenue</h3><h2>₹8.2L</h2></div>
+<div class="card"><h3>Active Sessions</h3><h2>3,120</h2></div>
+<div class="card"><h3>Efficiency</h3><h2>92%</h2></div>
+</section>
+
+<section class="grid">
+<canvas id="lineChart"></canvas>
+<canvas id="doughnutChart"></canvas>
+</section>
+
+</div>
+
+<footer>
+© 2026 InsightX • Startup Analytics Platform
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
